@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+    android:id="@+id/text_start_lat"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:gravity="top|left"
+    android:hint="起点纬度30.543"
+    android:minHeight="45dp"
+    android:textSize="18sp" />
+    <EditText
+    android:id="@+id/text_start_lon"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:gravity="top|left"
+    android:hint="起点经度114.355"
+    android:minHeight="45dp"
+    android:textSize="18sp" />
+
+    <EditText
+    android:id="@+id/text_dest_lat"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:gravity="top|left"
+    android:hint="终点纬度30.531"
+    android:minHeight="45dp"
+    android:textSize="18sp" />
+
+
+    <EditText
+    android:id="@+id/text_dest_lon"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top|left"
+    android:hint="终点经度114.354"
+    android:minHeight="45dp"
+    android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_direct_save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="保存" />
+
+</LinearLayout>
